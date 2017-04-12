@@ -1,0 +1,36 @@
+{
+  "name": "SmartSavers.Club",
+  "description": "SmartSaversClub. Get exclusive offers from thousands of merchants.",
+  "slug": "smartsavers-mobile",
+  "privacy": "unlisted",
+  "sdkVersion": "15.0.0",
+  "version": "1.0.5",
+  "orientation": "portrait",
+  "primaryColor": "#63E4A5",
+  "icon": "./assets/img/SSCIcon512by512.png",
+  "notification": {
+    "icon": "./assets/img/SSCIcon48by48.png",
+    "color": "#63E4A5"
+  },
+  "loading": {
+    "icon": "./assets/img/mark-white360by360.png",
+    "backgroundColor": "#63E4A5",
+    "hideExponentText": true
+  },
+  "packagerOpts": {
+    "assetExts": ["ttf", "mp4"]
+  },
+  "ios": {
+    "bundleIdentifier": "club.smartsavers.react",
+    "supportsTablet": false
+  },
+  "android": {
+    "package": "club.smartsavers.react",
+    "versionCode": 7,
+    "config": {
+      "googleMaps": {
+        "apiKey": ""
+      }
+    }
+  }
+}
