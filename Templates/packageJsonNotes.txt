@@ -1,0 +1,38 @@
+Jest Testing
+This package.json uses the "jest-expo" preset, but can use the "react-native"
+preset if not using Expo.
+
+Expo
+The vector-icons is a massive icon library. This collection includes IonIcons
+for iOS and MaterialIcons for Android.
+The ex-navigation navigator can be a bit buggy and is supposed to be replaced
+by react-navigation in the future. Ex-navigation is much easier to use
+right away. React-navigation takes more time to setup, but seems to be more
+customizable further down the road. React-navigation is still in beta and
+has less online resources/pointers.
+If using Expo, the react-native version must be the Expo SDK.
+
+Store
+This package.json has dependencies for Redux and Mobx. There aren't many online
+resources for Mobx for React Native. Redux is the safer way to go, even though
+it requires more setup at first.
+
+Linting
+ESLinting is used. The babel dependencies are required for these lintings. A
+template .eslintrc file can be found in this project.
+
+Useful NPM Modules
+bluebird: Handles arrays of promises. This was used to return a promise
+  after mapping through and array of Api calls.
+react-native-dotenv: Stores api keys and secrets you want to keep hidden.
+geolib: Geo library. Can calculate distances between coordinate points.
+lodash: Love this library. Has a method for any sort of array data processing
+  needed.
+react-native-keyboard-aware-scroll-view: RN KeyboardAvoidingView gets buggy
+  when the view is large. This component works a bit better in certain cases.
+react-native-material-design-searchbar: This search bar is simple, but doesn't
+  require any changes to the iOS or Android folders to use.
+react-native-modal-wrapper: Used this to make a custom drawer.
+react-native-slider: Used this to make a custom slider button.
+react-native-swipe-gestures: Reads swipe gestures and performs callbacks.
+urijs: uri helper
