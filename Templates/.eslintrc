@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "plugin:react/recommended", "standard"],
+  "env": {
+    "jest": true
+  },
+  "plugins": [
+    "flowtype-errors",
+    "react",
+    "immutable",
+    "react-native"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "flowtype-errors/show-errors": 2,
+    "react/prop-types": 0,
+    "immutable/no-let": 2,
+    "immutable/no-this": 0,
+    "immutable/no-mutation": 2,
+    "comma-dangle": 0,
+    "no-var": 2,
+    "no-undef": 2,
+    "no-param-reassign": 2,
+    "react-native/no-unused-styles": 2,
+  },
+  "globals": {
+    "fetch": true
+  }
+}
