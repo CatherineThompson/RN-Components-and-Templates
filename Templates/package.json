@@ -23,6 +23,7 @@
     "react": "~15.4.0",
     "react-native": "https://github.com/exponent/react-native/archive/sdk-15.0.0.tar.gz",
     "react-native-keyboard-aware-scroll-view": "^0.2.7",
+    "react-native-keyboard-spacer": "",
     "react-native-material-design-searchbar": "^1.1.0",
     "react-native-modal-wrapper": "^2.3.0",
     "react-native-slider": "^0.9.1",

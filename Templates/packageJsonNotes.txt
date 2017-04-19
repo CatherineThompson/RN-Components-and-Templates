@@ -22,14 +22,17 @@ ESLinting is used. The babel dependencies are required for these lintings. A
 template .eslintrc file can be found in this project.
 
 Useful NPM Modules
+https://github.com/jondot/awesome-react-native/blob/master/README.md#navigation
+(collection of awesome npm packages, tools and resources for react native)
 bluebird: Handles arrays of promises. This was used to return a promise
   after mapping through and array of Api calls.
 react-native-dotenv: Stores api keys and secrets you want to keep hidden.
 geolib: Geo library. Can calculate distances between coordinate points.
 lodash: Love this library. Has a method for any sort of array data processing
   needed.
-react-native-keyboard-aware-scroll-view: RN KeyboardAvoidingView gets buggy
-  when the view is large. This component works a bit better in certain cases.
+react-native-keyboard-aware-scroll-view AND react-native-keyboard-spacer:
+  RN KeyboardAvoidingView gets buggy when the view is large. These components
+  works a bit better in certain cases. react-native-keyboard-spacer works best.
 react-native-material-design-searchbar: This search bar is simple, but doesn't
   require any changes to the iOS or Android folders to use.
 react-native-modal-wrapper: Used this to make a custom drawer.

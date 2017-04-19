@@ -14,6 +14,8 @@ import Colors from '../constants/Colors'
 
 // This component is a messaging text input bar at the bottom of a screen.
 // They keyboard avoiding part can be applied to other views.
+// The npm package react-native-keyboard-spacer works as well.
+// This allows for customizability
 export default class CustomKeyboardAvoidingTextInput extends Component {
   state = {
     message: '',
